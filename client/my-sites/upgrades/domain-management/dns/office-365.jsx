@@ -55,8 +55,7 @@ class Office365 extends Component {
 							isError={ this.state.token && ! isDataValid }
 							onChange={ this.onChange }
 							placeholder="MS=ms..." />
-						{ this.state.token && ! isDataValid
-							? <FormInputValidation text={ this.props.translate( 'Invalid Token' ) } isError={ true } /> : null }
+						{ this.state.token && <FormInputValidation text={ this.props.translate( 'Invalid Token' ) } isError={ true } /> }
 					</FormFieldset>
 
 					<FormFooter>
