@@ -11,6 +11,7 @@ module.exports.action = keyMirror( {
 	DNS_ADD: null,
 	DNS_ADD_COMPLETED: null,
 	DNS_ADD_FAILED: null,
+	ADD_OFFICE_COMPLETED: null,
 	DNS_DELETE: null,
 	DNS_DELETE_COMPLETED: null,
 	DNS_DELETE_FAILED: null,
